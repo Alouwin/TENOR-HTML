@@ -1,0 +1,155 @@
+# Demo.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alouwin B. Pacilan | Portfolio</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      color: white;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      letter-spacing: 2px;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: white;
+      margin: 20px 0;
+      padding: 25px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    }
+
+    h2 {
+      margin-bottom: 15px;
+      color: #764ba2;
+    }
+
+    ul {
+      padding-left: 20px;
+      line-height: 1.8;
+    }
+
+    .skills span {
+      display: inline-block;
+      background: #764ba2;
+      color: white;
+      padding: 8px 14px;
+      border-radius: 20px;
+      margin: 5px;
+      font-size: 0.9rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: white;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .card {
+        padding: 18px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Alouwin B. Pacilan</h1>
+    <p>BSIT Student | Future IT Professional</p>
+  </header>
+
+  <div class="container">
+
+    <div class="card">
+      <h2>👤 Personal Information</h2>
+      <p><strong>Name:</strong> Alouwin B. Pacilan</p>
+      <p><strong>Course:</strong> Bachelor of Science in Information Technology</p>
+      <p><strong>Year:</strong> 3rd Year</p>
+    </div>
+
+    <div class="card">
+      <h2>🎯 Career Objective</h2>
+      <p>
+        I aim to become a creative and skilled IT professional who can design
+        modern websites, develop useful systems, and help improve technology
+        for businesses and communities in the future.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>🛠 Skills</h2>
+      <div class="skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>Basic Programming</span>
+        <span>Computer Troubleshooting</span>
+        <span>Microsoft Office</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>📂 Projects</h2>
+      <ul>
+        <li>Simple Creative HTML Portfolio Website</li>
+        <li>School BSIT Presentations and Activities</li>
+        <li>Basic Website Layout Designs</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>📞 Contact Information</h2>
+      <p><strong>Email:</strong> alouwinpacilan040@gmail.com</p>
+      <p><strong>Phone:</strong> 09519334319
+      <p><strong>Location:</strong> Cebu, Philippines</p>
+    </div>
+
+  </div>
+
+  <footer>
+    © 2026 Alouwin B. Pacilan | Designed with Creativity 💜
+  </footer>
+</body>
+</html>
